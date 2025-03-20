@@ -864,6 +864,7 @@ gtfs:shortName rdfs:comment "Nombre corto dado a una ruta o viaje"@es ,
                status:term_status "inestable"@es ,
                                   "unstable"@en ;
                rdfs:range xsd:string ;
+               rdf:type owl:DatatypeProperty ;
                rdfs:subPropertyOf dct:title ;
                rdfs:domain [rdf:type owl:Class; 
                             owl:unionOf (gtfs:Route
