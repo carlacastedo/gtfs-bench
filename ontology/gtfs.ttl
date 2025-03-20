@@ -1002,7 +1002,7 @@ gtfs:endDate rdf:type owl:DatatypeProperty ;
 
 gtfs:date rdf:type owl:DatatypeProperty ;
           rdfs:domain gtfs:CalendarDateRule ;
-          rdfs:range xsd:string ;
+          rdfs:range xsd:date ;
           rdfs:subPropertyOf dct:date ;
           rdfs:comment "Date when service exception occurs."@en ;
           rdfs:label "Date"@en .
